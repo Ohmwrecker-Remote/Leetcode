@@ -12,6 +12,10 @@
  *     struct ListNode *next;
  * };
  */
+struct ListNode {
+    int val;
+    struct ListNode *next;
+};
 
  int lenthOf(struct ListNode* l);
 
